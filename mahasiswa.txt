@@ -1,0 +1,4 @@
+alter table bdo.mahasiswa 
+add nrp varchar(20) not null,
+nama varchar(50) not null,
+jurusan(50) not null;

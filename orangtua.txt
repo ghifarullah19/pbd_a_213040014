@@ -1,0 +1,7 @@
+BULK INSERT dbo.Mahasiswa FROM `D:\mahasiswa.txt`
+WITH
+(
+DATAFILETYPE = `char`,
+FIELDTERMINATOR = `,`,
+ROWTERMINATOR = `\n`
+);

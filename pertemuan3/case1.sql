@@ -1,0 +1,15 @@
+-- CREATE TABLE dbo.mahasiswa(
+-- id_mahasiswa char(9) PRIMARY KEY NOT NULL,
+-- nama_mahasiswa char(50) NOT NULL,
+-- alamat_mahasiswa char(50) NOT NULL,
+-- tanggal_lahir_mahasiswa DATE,
+-- no_telepon_mahasiswa varchar(15),
+-- angkatan_mahasiswa char(4)
+-- );
+-- CREATE TABLE dbo.dosen(
+-- id_dosen char(9) PRIMARY KEY NOT NULL,
+-- nama_dosen char(50) NOT NULL,
+-- alamat_dosen char(50) NOT NULL,
+-- tanggal_lahir_dosen DATE,
+-- no_telepon_dosen varchar(15)
+-- );
