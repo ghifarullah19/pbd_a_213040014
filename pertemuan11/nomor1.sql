@@ -7,7 +7,11 @@ CREATE PROCEDURE Sales.IncDiscount
     @discount AS NUMERIC(4,3)
 AS
     UPDATE Sales.OrderDetails
+<<<<<<< HEAD
+    SET Sales.OrderDetails.discount -= @discount*10/100
+=======
     SET Sales.OrderDetails.discount += @discount*10/100
+>>>>>>> 8f60a740cd5161fe05c5dcb439f3254240a5e76f
         FROM Sales.OrderDetails
         INNER JOIN Sales.Orders
         ON Sales.OrderDetails.orderid = Sales.Orders.orderid
